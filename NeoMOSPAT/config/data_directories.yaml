@@ -1,0 +1,252 @@
+# =========================================================================================================
+# Definition of directories where the data from the different sources (observation and model data) is located.
+# This config file is now a YAML file in order to simplify directory management.
+# On the repository this file ends with ".sample" so you should make a copy without that ending
+# and keep your own copy. This is to avoid "false changes" to the project by no sharing personal paths.
+# =========================================================================================================
+
+# A YAML file its a text plane human-readable file format. For the purposes of this file just introduce
+# network name followed by colons and the directory in the usual unix way.
+# Example (Remember decommenting the lines):
+# OBSERVATIONS: 
+#     NetworkName: /this/is/where/network/data/is/located/
+#     AnotherNetwork : /another/personal/path/
+# MODELS:
+#     AModelName: /location/of/its/data
+#
+# Remember that the network name defined here is the same one you should use in your include files.
+###########################
+AERONET:
+    DAMIAN-Aqua : /Users/mariel/Dropbox/Fondecyt/Codes/Damian_AOD_DB/csv/Aqua/
+    DAMIAN-Terra: /Users/mariel/Dropbox/Fondecyt/Codes/Damian_AOD_DB/csv/Terra/
+
+########################### 
+OBSERVATIONS:
+    DMC: /home/m/m301017/DataBases/DMC/Data/
+    SINCA: /home/m/m301017/DataBases/SINCA/Data/
+    NORTE_RM: /home/m/m301017/DataBases/Norte_RM/Data_new/
+    PAPILA-Obs: /home/m/m301017/PAPILA/observations/MOSPAT_input/PAPILA-Obs_2024/
+
+###########################  
+
+###########################  
+## In case units are not specified these are assumed
+UNITS:
+    PM25    : "ug/m3"
+    PM10    : "ug/m3"
+    PMC     : "ug/m3"
+    SO2     : "ppb"
+    NO      : "ppb"
+    NO2     : "ppb"
+    CO      : "ppm"
+    O3      : "ppb"
+    Cu      : "ug/m3"
+    Pb      : "ug/m3"
+    CH4     : "ppmC"
+    HCM     : "ppm"
+    NOX     : "ppb"
+    As      : "ug/m3"
+    PMHV    : "ug/m3"
+    RAD     : "W/m2"
+    PRES    : "hPa"
+    RAIN    : "mm/h"
+    RHUM    : "%"
+    D-U     : "Deg.M"
+    D-V     : "Deg.M"
+    WDIR    : "Deg.M"
+    WSPD    : "m/s"
+    WINDU   : "m/s"
+    WINDV   : "m/s"
+    TEMP    : "deg.C"
+
+ 
+    MODELS: ## Needs to be changed
+        PM25    : "ug/m3"
+        PM10    : "ug/m3"
+        PMC     : "ug/m3"
+        SO2     : "ppb"
+        NO      : "ppb"
+        NO2     : "ppb"
+        CO      : "ppm"
+        O3      : "ppb"
+        Cu      : "ug/m3"
+        Pb      : "ug/m3"
+        CH4     : "ppmC"
+        HCM     : "ppm"
+        NOX     : "ppb"
+        As      : "ug/m3"
+        PMHV    : "ug/m3"
+        RAD     : "W/m2"
+        PRES    : "hPa"
+        RAIN    : "mm/h"
+        RHUM    : "%"
+        D-U     : "Deg.M"
+        D-V     : "Deg.M"
+        WDIR    : "Deg.M"
+        WSPD    : "m/s"
+        WINDU   : "m/s"
+        WINDV   : "m/s"
+        TEMP    : "deg.C"
+
+    SAT-Aqua:
+        AOD     : ""
+        AE      : ""
+
+    SAT-Terra:      
+        AOD     : ""
+        AE      : ""  
+
+
+    FIMA_T1:
+        AOD     : ""
+        AE      : ""
+        PM25    : "ug/m3"
+        PM10    : "ug/m3"
+        PMC     : "ug/m3"
+        SO2     : "ppb"
+        NO      : "ppb"
+        NO2     : "ppb"
+        CO      : "ppm"
+        O3      : "ppb"
+        Cu      : "ug/m3"
+        Pb      : "ug/m3"
+        CH4     : "ppmC"
+        HCM     : "ppm"
+        NOX     : "ppb"
+        As      : "ug/m3"
+        PMHV    : "ug/m3"
+        RAD     : "W/m2"
+        PRES    : "hPa"
+        RAIN    : "mm/h"
+        RHUM    : "%"
+        D-U     : "Deg.M"
+        D-V     : "Deg.M"
+        WDIR    : "Deg.M"
+        WSPD    : "m/s"
+        WINDU   : "m/s"
+        WINDV   : "m/s"
+        TEMP    : "deg.C"
+
+
+    FIMA_T2:
+        AOD     : ""
+        AE      : ""
+        PM25    : "ug/m3"
+        PM10    : "ug/m3"
+        PMC     : "ug/m3"
+        SO2     : "ppb"
+        NO      : "ppb"
+        NO2     : "ppb"
+        CO      : "ppm"
+        O3      : "ppb"
+        Cu      : "ug/m3"
+        Pb      : "ug/m3"
+        CH4     : "ppmC"
+        HCM     : "ppm"
+        NOX     : "ppb"
+        As      : "ug/m3"
+        PMHV    : "ug/m3"
+        RAD     : "W/m2"
+        PRES    : "hPa"
+        RAIN    : "mm/h"
+        RHUM    : "%"
+        D-U     : "Deg.M"
+        D-V     : "Deg.M"
+        WDIR    : "Deg.M"
+        WSPD    : "m/s"
+        WINDU   : "m/s"
+        WINDV   : "m/s"
+        TEMP    : "deg.C"
+
+    SINCA:
+        PM25    : "ug/m3"
+        PM10    : "ug/m3"
+        PMC     : "ug/m3"
+        SO2     : "ppb"
+        NO      : "ppb"
+        NO2     : "ppb"
+        CO      : "ppm"
+        O3      : "ppb"
+        Cu      : "ug/m3"
+        Pb      : "ug/m3"
+        CH4     : "ppmC"
+        HCM     : "ppm"
+        NOX     : "ppb"
+        As      : "ug/m3"
+        PMHV    : "ug/m3"
+        RAD     : "W/m2"
+        PRES    : "hPa"
+        RAIN    : "mm/h"
+        RHUM    : "%"
+        D-U     : "Deg.M"
+        D-V     : "Deg.M"
+        WDIR    : "Deg.M"
+        WSPD    : "m/s"
+        WINDU   : "m/s"
+        WINDV   : "m/s"
+        TEMP    : "deg.C"
+
+    PAPILA-Obs:
+        PM25    : "ug/m3"
+        PM10    : "ug/m3"
+        PMC     : "ug/m3"
+        SO2     : "ppb"
+        "NO"      : "ppb"
+        NO2     : "ppb"
+        CO      : "ppm"
+        O3      : "ppb"
+        Cu      : "ug/m3"
+        Pb      : "ug/m3"
+        CH4     : "ppmC"
+        HCM     : "ppm"
+        NOX     : "ppb"
+        As      : "ug/m3"
+        PMHV    : "ug/m3"
+        RAD     : "W/m2"
+        PRES    : "hPa"
+        RAIN    : "mm/h"
+        RHUM    : "%"
+        D-U     : "Deg.M"
+        D-V     : "Deg.M"
+        WDIR    : "Deg.M"
+        WSPD    : "m/s"
+        WINDU   : "m/s"
+        WINDV   : "m/s"
+        TEMP    : "deg.C"
+
+    NORTE_RM:
+        WDIR    : "Deg.M"
+        WSPD    : "m/s"
+        WDIR--H20: "Deg.M"
+        WSPD--H20: "m/s"
+        WDIR--H10: "Deg.M"
+        WSPD--H10: "m/s"
+        TEMP    : "deg.C"
+        RHUM    : "%"
+        PRES    : "hPa"
+        RAD     : "W/m2"
+        Rain    : "mm/h"
+        WINDU   : "m/s"
+        WINDV   : "m/s"
+
+    DMC:
+        WDIR    : "Deg.M"
+        WSPD    : "m/s"
+        WDIR--H2: "Deg.M"
+        WSPD--H2: "m/s"
+        WDIR--H10: "Deg.M"
+        WSPD--H10: "m/s"
+        TEMP    : "deg.C"
+        TEMP SEC: "deg.C"
+        TEMP HUM: "deg.C"
+        RHUM    : "%"
+        PRES    : "hPa"
+        RAD     : "W/m2"
+        Rain    : "mm/h"
+        WINDU   : "m/s"
+        WINDV   : "m/s"
+
+
+###########################
+MODELS:
+    # Adds your models names and directories here (not implemented yet)
