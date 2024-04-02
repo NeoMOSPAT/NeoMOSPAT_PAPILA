@@ -1,0 +1,67 @@
+########################### 
+## From Model to obs
+## Name var to use :  list of names that are equivalent  (model and obs) 
+Equiv:
+    AOD  : [optdaero, AOD]
+    AE   : [AE]
+    DUST : [DUST]
+    RAD  : [RAD]
+    WDIR : [WDIR20m, VD, WDIR,  WDIR0,  WDIR10m,  WDIR20m,  WDIR25m, WDIR25m]
+    WSPD : [WSPEED20m, WSPEED, WSPD, WSPD0, WSPD10m, WSPD20m, WSPD25m, WSPEED25m]
+    WINDU: [WSPEEDU, U0, U10m, U20m, U25m, WINDU]
+    WINDV: [WSPEEDV, V0, V10m, V20m, V25m, WINDV]
+    CO   : [N_CO, CO]
+    PM25 : [PM25, MP25, MP2.5, 'MP2,5', PM2.5, "PM2,5"]
+    PM10 : [PM10, MP10]
+    PMC  : [PMC]
+    SO2  : [SO2]
+    'NO' : ['NO']
+    NO2  : [NO2]
+    O3   : [O3]
+    PRES : [P, PRES]
+    RHUM : [RH, RHUM]
+    TEMP : [TEMP, "TEMP SEC"]
+    CH4  : [CH4]
+    NOX  : [NOX, NOx]
+    PATM : [PATM]
+
+
+###########################
+## Categorizes variables as AQ or Meterological
+Cal: 
+    PM25    
+    PM10 
+    PMC 
+    SO2 
+    NO
+    NO2 
+    CO  
+    O3   
+    Cu   
+    Pb     
+    CH4   
+    HCM    
+    NOX  
+    As   
+    PMHV  
+    BC
+    NOx
+    AE
+    AOD
+    *
+
+    
+
+Met:
+    RAD  
+    PRES    
+    RAIN  
+    RHUM  
+    D-U   
+    D-V   
+    WDIR  
+    WSPD   
+    WINDU 
+    WINDV 
+    TEMP  
+    Rain 

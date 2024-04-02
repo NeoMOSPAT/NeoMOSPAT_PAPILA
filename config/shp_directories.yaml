@@ -1,0 +1,39 @@
+# ============================================
+# This config file is now a YAML file in order to simplify directory management.
+# On the repository this file ends with ".sample" so you should make a copy without that ending
+# and keep your own copy. This is to avoid "false changes" to the project by not sharing personal paths.
+# =============================================
+
+
+########################### 
+## Full path to shapefile
+SHP:
+    Comunas     : /home/cr2/nhuneeus/DATA/SHAPEFILES/Comunas/Comunas.shp
+    Ciudades    : /home/cr2/nhuneeus/DATA/SHAPEFILES/Ciudades_Censo_2017/Ciudades_Censo_2017.shp
+    Regiones    : /home/cr2/nhuneeus/DATA/SHAPEFILES/Clean_Regions/Clean_Regions.shp
+    Provincias  : /home/cr2/nhuneeus/DATA/SHAPEFILES/Provincias/Provincias.shp
+    Chile       : /home/cr2/nhuneeus/DATA/SHAPEFILES/Chile/Chile.shp
+    A_Pobladas  : /home/cr2/nhuneeus/DATA/SHAPEFILES/Areas_Pobladas/Areas_Pobladas.shp
+    Aeropuertos : /home/cr2/nhuneeus/DATA/SHAPEFILES/Aeropuertos/Aeropuertos.shp
+    Cuerpos_Agua: /home/cr2/nhuneeus/DATA/SHAPEFILES/Masas_Lacustres/masas_lacustres.shp
+    SNASPE      : /home/cr2/nhuneeus/DATA/SHAPEFILES/Snaspe/snaspe.shp
+    Calles      : /home/cr2/nhuneeus/DATA/SHAPEFILES/Red_Vial/redvial2019.shp
+    Parques_Urb : /home/cr2/nhuneeus/DATA/SHAPEFILES/Catastro_Parques_Urbanos/Parques_Urbanos.shp
+    Topo_250m   : /home/cr2/nhuneeus/DATA/SHAPEFILES/topo_250_clp/cl_curvas_nivel250m_geoLine.shp
+
+
+###########################
+## Projections that the shapefiles have
+CRS:
+    Comunas     : "epsg:3857"
+    Ciudades    : "epsg:4326"
+    Regiones    : "epsg:3857"
+    Provincias  : "epsg:3857"
+    Chile       : "epsg:4326"
+    A_Pobladas  : "epsg:3857"
+    Aeropuertos : "epsg:3857"
+    Cuerpos_Agua: "epsg:3857"
+    SNASPE      : "epsg:3857"
+    Calles      : "epsg:32719"
+    Parques_Urb : "epsg:32719"
+    Topo_250m   : "epsg:4326"

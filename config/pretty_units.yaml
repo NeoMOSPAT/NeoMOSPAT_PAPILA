@@ -1,0 +1,14 @@
+########################### 
+## Way to plot units 
+ug/m3      : $\mu$g/m${}^3$
+ug m^-3    : $\mu$g/m${}^3$
+ug/m3N     : $\mu$g/m${}^3$
+W/m2       : W/m${}^2$
+deg.C      : $\degree$ C
+Celsius    : $\degree$ C 
+Deg.M      : $\degree$
+deg.m      : $\degree$
+porcentaje : "%"
+m s-1      : m/s 
+m s-1m s-1 : m/s
+degree     : $\degree$
